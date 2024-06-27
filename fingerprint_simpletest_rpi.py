@@ -26,11 +26,6 @@ uart = serial.Serial("/dev/ttyS0", baudrate=57600, timeout=1)
 
 finger = adafruit_fingerprint.Adafruit_Fingerprint(uart)
 
-# Your AWS RDS connection details
-db_host = 'portable-attendance-device.c7220kqckvq6.eu-north-1.rds.amazonaws.com'
-db_name = 'pad_sys'
-db_user = 'admin'
-db_password = 'pad123pad456'
 
 # Connect to your AWS RDS instance
 connection = mysql.connector.connect(
