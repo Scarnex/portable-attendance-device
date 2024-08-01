@@ -1,4 +1,4 @@
-# Portable Attendance Device
+# Portable Attendance Device (PAD)
 
 This repository contains Python scripts for a portable attendance system utilizing fingerprint recognition. The system interacts with a fingerprint sensor, a MySQL database for user and attendance management, and provides separate functionalities for administrators and instructors.
 
